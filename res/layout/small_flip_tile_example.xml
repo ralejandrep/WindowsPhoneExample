@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res/net.alejandre.windowsphoneexample"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC" >
+
+    <net.alejandre.windowsphonelib.tiles.SmallFlipTile
+        android:id="@+id/customsmallfliptile"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_centerInParent="true"
+        wp:BackgroundImage="@drawable/diagrama"
+        wp:ImageScaleType="fit_center" >
+
+    </net.alejandre.windowsphonelib.tiles.SmallFlipTile>
+
+</RelativeLayout>

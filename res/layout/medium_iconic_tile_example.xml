@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res/net.alejandre.windowsphoneexample"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	>
+	
+    <net.alejandre.windowsphonelib.tiles.MediumIconicTile
+        android:id="@+id/custommediumiconictile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        wp:Title="Mail"
+        wp:IconImage="@drawable/icon_mail"
+        wp:BackgroundColor="#F00"
+        wp:TextColor="#FFF"
+        >
+        
+    </net.alejandre.windowsphonelib.tiles.MediumIconicTile>
+
+</RelativeLayout>

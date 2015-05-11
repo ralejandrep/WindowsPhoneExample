@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.alejandre.windowsphoneexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Flip Tile -->
+        <activity android:name=".MainActivityFlipTile"></activity>
+        <activity android:name=".fliptile.FTSmallExample"></activity>
+        <activity android:name=".fliptile.FTBitmapImageSrcExample"></activity>
+        <activity android:name=".fliptile.FTXmlPropertiesExample"></activity>
+        <activity android:name=".fliptile.FTCustomCounterExample"></activity>
+        <activity android:name=".fliptile.FTNotCounterExample"></activity>
+        <activity android:name=".fliptile.FTCustomBackgroundExample"></activity>
+        <activity android:name=".fliptile.FTCustomTextExample"></activity>
+        <activity android:name=".fliptile.FTAddViewInCodeExample"></activity>
+        <activity android:name=".fliptile.FTGeneralClickListenerExample"></activity>
+        <activity android:name=".fliptile.FTCustomClickListenerExample"></activity>
+        <!-- End Flip Tile -->
+        <!-- Iconic Tile -->
+        <activity android:name=".MainActivityIconicTile"></activity>
+        <activity android:name=".iconictile.BITXmlPropertiesExample"></activity>
+        <activity android:name=".iconictile.SITXmlPropertiesExample"></activity>
+        <activity android:name=".iconictile.MITXmlPropertiesExample"></activity>
+
+        
+    </application>
+
+</manifest>

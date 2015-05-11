@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res/net.alejandre.windowsphoneexample"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC" >
+
+    <net.alejandre.windowsphonelib.tiles.SmallIconicTile
+        android:id="@+id/customsmalliconictile"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_centerInParent="true"
+        wp:BackgroundColor="#F00"
+        wp:IconImage="@drawable/icon_mail" >
+
+    </net.alejandre.windowsphonelib.tiles.SmallIconicTile>
+
+</RelativeLayout>

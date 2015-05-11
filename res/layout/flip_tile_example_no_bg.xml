@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res/net.alejandre.windowsphoneexample"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <net.alejandre.windowsphonelib.tiles.FlipTile
+        android:id="@+id/customfliptile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        wp:Title="Titulo"
+        wp:BackContent="Descripcion trasera del banner"
+        wp:Delay="4000" >
+    </net.alejandre.windowsphonelib.tiles.FlipTile>
+
+</RelativeLayout>
